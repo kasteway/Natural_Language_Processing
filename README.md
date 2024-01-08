@@ -23,7 +23,26 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 
 
 ---
+### NLP Common Terms:
 
+- Tokenization: This is the process of breaking down text into smaller units called tokens. Tokens can be words, numbers, or punctuation marks. Tokenization is often the first step in NLP pipelines, preparing text for more complex processing.
+
+- Stemming: Stemming is the process of reducing words to their word stem or root form. For instance, the words "fishing", "fished", and "fisher" all stem to the word "fish". This helps in normalizing words for text processing tasks, but the stems might not always be actual dictionary words.
+
+- Tagging: In NLP, tagging typically refers to Part-of-Speech (POS) tagging, which is the process of labeling each word in a sentence with its appropriate part of speech (like noun, verb, adjective, etc.). This is crucial for understanding the grammatical structure of sentences.
+
+- Parsing: Parsing involves analyzing the grammatical structure of a sentence, identifying its constituents, and how these constituents relate to each other. It helps in understanding the sentence's syntax and is essential for more complex NLP tasks.
+
+- Semantic Reasoning: This is the process of understanding the meaning and context of a sentence beyond its syntactic structure. It involves interpreting the underlying meanings, intentions, or sentiments of the words or sentences, and how these meanings change in different contexts.
+
+- Part-of-Speech Tagging: This is a process of assigning parts of speech to individual words in a text (like verbs, nouns, adjectives, etc.). It's a fundamental step in text analysis and helps in understanding the syntax of the language.
+
+- Named Entity Recognition (NER): NER is the process of identifying and classifying named entities (like people, organizations, locations, dates, products, etc.) present in a text. This is important for extracting information from text and is widely used in information retrieval, question answering systems, and data mining.
+
+- Syntactic Dependency Parsing: This involves analyzing the syntactic structure of a sentence by establishing relationships between “head” words and words which modify those heads. It helps in understanding how different words in a sentence relate to each other, and is essential for detailed linguistic analysis of text.
+
+
+---
 ### NLP Tools:
 
 - NLTK (Natural Language Toolkit): One of the most widely used libraries for NLP in Python. NLTK is great for beginners and also for complex tasks. It provides easy-to-use interfaces for over 50 corpora and lexical resources, along with libraries for text processing for classification, tokenization, stemming, tagging, parsing, and semantic reasoning.
