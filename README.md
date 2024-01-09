@@ -14,11 +14,21 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 ### NLP uses:
 
 - Sentiment Analysis: This involves analyzing text to determine the sentiment behind it, such as determining if a review is positive, negative, or neutral.
+
+- Machine Translation: NLP enables the translation of text or speech from one language to another, aiming for both accuracy and fluency.
+
+- Text Classification: NLP is used to assign discrete label out of a finite set of labels to a given text. Ex. Spam or not spam(ham)
+
 - Speech Recognition: A part of NLP involves the conversion of spoken language into text, which is used in voice-activated systems and dictation software.
+  
 - Text-to-Speech: The opposite of speech recognition, this involves converting text into spoken voice output, used in applications like GPS navigation systems and reading assistants.
+
 - Information Extraction: NLP is used to identify and extract key pieces of information from large volumes of text, such as names, places, dates, and specific facts.
+
 - Text Summarization: Creating concise summaries of large texts or documents is another application of NLP.
+
 - Chatbots and Virtual Assistants: NLP is integral in developing interactive and responsive chatbots and virtual assistants that can engage in natural-sounding conversations with users.
+
 - Deep Learning and NLP: The integration of deep learning techniques has significantly advanced the capabilities of NLP, enabling more sophisticated understanding and generation of human language.
 
 
