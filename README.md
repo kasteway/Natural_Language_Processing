@@ -77,3 +77,30 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 
 
 ---
+### Bag-Of-Words:
+
+The "Bag of Words" (BoW) model is a simple and commonly used way in natural language processing to represent text data. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. The Bag of Words model is powerful due to its simplicity and efficiency in converting text into numerical data, which can then be used for various computational processes like classification or clustering in machine learning. However, it has limitations such as not capturing the order of words and the context they are used in.
+
+##### Summary of the Bag of Words model with an Example:
+
+"The cat sat on the mat."
+"The dog sat on the log."
+
+1. List Unique Words: It starts by identifying all the unique words in the text. -> the, cat, sat, on, mat, dog, log
+
+2. Create a Vector: For each unique word, create a vector with a place for every unique word. The length of this vector is equal to the number of unique words.
+
+3. Count the Words: In the vector, count how many times each word appears in the text. This count is placed in the corresponding position in the vector.
+
+"The cat sat on the mat" becomes [2, 1, 1, 1, 1, 0, 0]
+"The dog sat on the log" becomes [2, 0, 1, 1, 0, 1, 1]
+Here, the first and third to sixth positions in the vector represent the words 'the', 'sat', 'on', 'mat', 'dog', and 'log', respectively. The count of each of these words in the sentences is reflected in the vector.
+   
+
+
+
+
+
+
+
+---
