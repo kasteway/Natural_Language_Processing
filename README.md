@@ -83,8 +83,8 @@ The "Bag of Words" (BoW) model is a simple and commonly used way in natural lang
 
 ##### Summary of the Bag of Words model with an Example:
 
-"The cat sat on the mat."
-"The dog sat on the log."
+"The cat sat on the mat.
+The dog sat on the log."
 
 1. List Unique Words: It starts by identifying all the unique words in the text. -> the, cat, sat, on, mat, dog, log
 
@@ -92,8 +92,8 @@ The "Bag of Words" (BoW) model is a simple and commonly used way in natural lang
 
 3. Count the Words: In the vector, count how many times each word appears in the text. This count is placed in the corresponding position in the vector.
 
-"The cat sat on the mat" becomes [2, 1, 1, 1, 1, 0, 0]
-"The dog sat on the log" becomes [2, 0, 1, 1, 0, 1, 1]
+- "The cat sat on the mat" becomes [2, 1, 1, 1, 1, 0, 0]
+- "The dog sat on the log" becomes [2, 0, 1, 1, 0, 1, 1]
 Here, the first and third to sixth positions in the vector represent the words 'the', 'sat', 'on', 'mat', 'dog', and 'log', respectively. The count of each of these words in the sentences is reflected in the vector.
    
 
