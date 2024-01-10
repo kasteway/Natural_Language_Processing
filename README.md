@@ -133,7 +133,9 @@ The dog sat on the log."
 
 ---
 
-linear classifiers are simpler, faster, and more interpretable, making them suitable for straightforward tasks or when computational resources are limited. Nonlinear classifiers, on the other hand, are more powerful and versatile, ideal for complex tasks but require more data, computational power, and expertise to develop and interpret.
+## Linear Text Classification vs Nonlinear Text Classification: 
+
+Linear classifiers are simpler, faster, and more interpretable, making them suitable for straightforward tasks or when computational resources are limited. Nonlinear classifiers, on the other hand, are more powerful and versatile, ideal for complex tasks but require more data, computational power, and expertise to develop and interpret.
 
 ### Linear Text Classification:
 
