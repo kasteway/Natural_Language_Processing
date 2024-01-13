@@ -63,13 +63,15 @@ The dog sat on the log."
 
 #### Naive Bayes Method:
 
-![Naive Bayes to calculate Weights for bag of words](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/4676231a-34e2-43cd-8185-ad3bc246656b)
+
+![Screenshot 2024-01-13 at 12 11 49 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/7edc0503-78c5-404a-8798-fcd493ecd6b3)
 
 
 ### Perceptron Method:
-![Perceptron Method for weights 1  ](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/2a6108b4-cb30-4031-bc53-d570f8c1ac51)
 
-![Perceptron Method for weights 2  ](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/484d3ec4-f84c-4d7b-aa59-57e8bb5ed576)
+![Screenshot 2024-01-13 at 12 11 49 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/d7850cea-7a7f-4d80-a037-b41b11fd4595)
+
+![Screenshot 2024-01-13 at 12 12 17 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/bd6d9ff1-d2c2-4d54-aa48-f401ce6e6a93)
 
 
 
