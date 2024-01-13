@@ -187,8 +187,7 @@ Linear classifiers are simpler, faster, and more interpretable, making them suit
 ---
 ### Sentiment Analysis:
 
-
-Each of these areas adds a layer of sophistication to traditional sentiment analysis, allowing for a more nuanced and detailed understanding of the sentiments expressed in text data.
+Sentiment analysis is a text classification application that determines teh overall sentiment of a document. Each of the following areas adds a layer of sophistication to traditional sentiment analysis, allowing for a more nuanced and detailed understanding of the sentiments expressed in text data.
 
 ##### Subjectivity Detection:
 
