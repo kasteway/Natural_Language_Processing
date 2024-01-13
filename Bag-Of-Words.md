@@ -1,3 +1,6 @@
+# Linear Text Classification
+
+
 ### Bag-Of-Words:
 
 The "Bag of Words" (BoW) model is a simple and commonly used way in natural language processing to represent text data. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. The Bag of Words model is powerful due to its simplicity and efficiency in converting text into numerical data, which can then be used for various computational processes like classification or clustering in machine learning. However, it has limitations such as not capturing the order of words and the context they are used in.
@@ -51,6 +54,23 @@ The dog sat on the log."
 - Frequency Bias: Common words that appear frequently in all documents (like 'the', 'is', 'and') can dominate in the representation, overshadowing rare but potentially more meaningful words.
 
 - Ignoring Semantics: The model does not capture the semantic relationships between words, such as synonyms or antonyms, leading to a lack of depth in understanding the text.
+
+
+---
+
+### Weights to use Linear Text classification:
+
+
+#### Naive Bayes Method:
+
+![Naive Bayes to calculate Weights for bag of words](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/4676231a-34e2-43cd-8185-ad3bc246656b)
+
+
+### Perceptron Method:
+![Perceptron Method for weights 1  ](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/2a6108b4-cb30-4031-bc53-d570f8c1ac51)
+
+![Perceptron Method for weights 2  ](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/484d3ec4-f84c-4d7b-aa59-57e8bb5ed576)
+
 
 
 ---
