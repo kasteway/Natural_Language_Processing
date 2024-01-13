@@ -53,5 +53,10 @@ The dog sat on the log."
 - Ignoring Semantics: The model does not capture the semantic relationships between words, such as synonyms or antonyms, leading to a lack of depth in understanding the text.
 
 
+---
+
+### Predicting a label from Bag-of-Words:
+
+![Screenshot 2024-01-13 at 11 47 46 AM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/283f6539-4093-4b3d-b6fb-3dda12c375d8)
 
 
