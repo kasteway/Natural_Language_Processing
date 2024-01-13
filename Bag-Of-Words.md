@@ -70,7 +70,6 @@ The dog sat on the log."
 ### Perceptron Method:
 
 ![Screenshot 2024-01-13 at 12 12 17 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/20b59985-b49c-4113-bab9-0a6e46e11c53)
-
 ![Screenshot 2024-01-13 at 12 12 30 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/42ecd190-60eb-4524-bd48-71161f0972d6)
 
 
@@ -81,7 +80,6 @@ The dog sat on the log."
 
 
 ![Screenshot 2024-01-13 at 12 11 04 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/10527d6b-0f73-4692-80c7-490a9f1d2771)
-
 
 
 ![Screenshot 2024-01-13 at 12 09 43 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/f8c838fb-201c-4298-8a2d-8c74533a061b)
