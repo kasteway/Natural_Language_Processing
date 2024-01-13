@@ -33,8 +33,14 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 
 
 ---
-### NLP Common Terms:
+### Text Normalization:
 
+Text normalization is an essential preprocessing step that helps in reducing complexity and improving the efficiency and accuracy of various NLP algorithms. It plays a vital role in ensuring that the text data is uniform and standardized, facilitating more effective and accurate analysis.
+
+Text normalization is a process in Natural Language Processing (NLP) that involves converting text into a more uniform format. The goal of text normalization is to transform the text into a form that is easier to process and analyze. This process is crucial for preparing raw text for various NLP tasks like sentiment analysis, machine translation, text-to-speech systems, and more.
+
+
+#### Key NLP Common Terms used in normalization:
 - Tokenization: This is the process of breaking down text into smaller units called tokens. Tokens can be words, numbers, or punctuation marks. Tokenization is often the first step in NLP pipelines, preparing text for more complex processing.
 
 - Stemming: Stemming is the process of reducing words to their word stem or root form. For instance, the words "fishing", "fished", and "fisher" all stem to the word "fish". This helps in normalizing words for text processing tasks, but the stems might not always be actual dictionary words.
