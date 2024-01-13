@@ -59,5 +59,6 @@ The dog sat on the log."
 
 ![Screenshot 2024-01-13 at 11 47 46 AM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/283f6539-4093-4b3d-b6fb-3dda12c375d8)
 
-![Fiction vs NonFiction algorithm calculation](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/52e5b41d-957c-4ebe-a3ee-33595412c2de)
+![Screenshot 2024-01-13 at 11 55 40 AM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/f9863fd3-b26a-438e-b508-726f7e7111f8)
+
 
