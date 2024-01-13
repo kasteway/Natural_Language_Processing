@@ -332,7 +332,7 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 
 
-##### Unigrams, bigrams, and trigrams are integral components of N-Gram language models, each representing a different level of complexity and context in understanding text. Here's how they are used in N-Gram language models:
+### Unigrams, bigrams, and trigrams are integral components of N-Gram language models, each representing a different level of complexity and context in understanding text. Here's how they are used in N-Gram language models:
 
 Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture different levels of word context and dependencies. Unigrams focus on individual words, bigrams introduce the concept of immediate word pairs, and trigrams extend this to sequences of three words. The choice between using unigrams, bigrams, trigrams, or higher N-Grams depends on the specific requirements of the task, the complexity the model can handle, and the availability of training data. Higher N-Grams can capture more context but also face greater challenges of data sparsity and computational complexity.
 
@@ -360,7 +360,41 @@ Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture di
 
   -  Trade-off: While trigrams offer more context, they also require significantly more data to accurately model the probabilities of word sequences, leading to issues of data sparsity.
 
-    
+
+### Handling unseen N-Grams:
+
+Smoothing, Discounting, and Backoff are techniques used in N-Gram language models to handle the issue of unseen N-grams—sequences of words that do not appear in the training data. These techniques are crucial for dealing with the sparsity problem in language modeling. 
+
+### 1. Smoothing:
+
+-  Purpose: Smoothing assigns a small, non-zero probability to unseen N-grams. This prevents the model from assigning a zero probability to unseen sequences during prediction.
+
+#### Methods:
+
+-  Laplace (Add-One) Smoothing: Adds 1 to the count of all N-grams, including those not seen in the training data. It's a simple approach but can be ineffective for large vocabularies.
+
+-  Add-k Smoothing: A variation of Laplace smoothing where a small constant k is added instead of 1, allowing more flexibility.
+
+- Good-Turing Smoothing: Redistributes probability mass from seen N-grams to unseen ones based on the frequency of frequencies, effectively estimating the probability of unseen events.
+
+### 2. Discounting:
+
+- Purpose: Discounting reduces the probability estimates for seen N-grams to free up probability mass that can be redistributed to unseen N-grams.
+
+#### Methods:
+
+-  Absolute Discounting: Subtracts a fixed discount value from the count of each seen N-gram.
+
+-  Kneser-Ney Smoothing: An advanced form of discounting that not only discounts seen N-grams but also uses a sophisticated method for redistributing the probability mass to unseen N-grams, based on the context in which words appear.
+
+### 3. Backoff:
+
+- Purpose: Backoff is a method for using lower-order N-Grams when higher-order N-grams are not available (i.e., when dealing with unseen N-grams in the higher-order model).
+
+-  Mechanism: If an N-gram has not been seen in the training data, the model 'backs off' to an (N-1)-gram. For example, if a trigram hasn't been seen, the model will use the corresponding bigram probability.
+
+- Example: Katz Backoff is a well-known backoff algorithm that dynamically decides whether to use a higher-order N-gram or to back off to a lower-order one, based on the availability of data.
+
 ---
 
 
