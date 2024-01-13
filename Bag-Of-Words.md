@@ -77,9 +77,11 @@ The dog sat on the log."
 
 ### Predicting a label from Bag-of-Words:
 
-![Screenshot 2024-01-13 at 11 47 46 AM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/283f6539-4093-4b3d-b6fb-3dda12c375d8)
+
+![Screenshot 2024-01-13 at 12 11 04 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/10527d6b-0f73-4692-80c7-490a9f1d2771)
 
 
-![Screenshot 2024-01-13 at 11 56 24 AM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/9a53962b-1322-466d-a449-b4b1d94aa689)
+
+![Screenshot 2024-01-13 at 12 09 43 PM](https://github.com/kasteway/Natural_Language_Processing/assets/62068733/f8c838fb-201c-4298-8a2d-8c74533a061b)
 
 
