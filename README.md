@@ -39,6 +39,26 @@ Text normalization is an essential preprocessing step that helps in reducing com
 
 Text normalization is a process in Natural Language Processing (NLP) that involves converting text into a more uniform format. The goal of text normalization is to transform the text into a form that is easier to process and analyze. This process is crucial for preparing raw text for various NLP tasks like sentiment analysis, machine translation, text-to-speech systems, and more.
 
+- Case Conversion: Converting all characters in the text to either uppercase or lowercase. This helps in ensuring that the algorithm treats words like "Apple," "apple," and "APPLE" as the same word.
+
+- Removing Punctuation: Punctuation marks are often removed since they might not be necessary for certain analysis tasks.
+
+- Standardizing Spelling and Grammar: Correcting typos and standardizing regional spellings (e.g., American English vs. British English) to ensure consistency in the text.
+
+- Expanding Contractions: In English, contractions like "don't" are expanded to their full form ("do not"). This standardizes the text and makes it easier for algorithms to understand.
+
+- Removing Special Characters and Numbers: Depending on the task, special characters and numbers might be irrelevant and can be removed from the text.
+
+- White Space Normalization: Removing extra white spaces, including tabs and new line characters, to prevent them from affecting the text processing.
+
+- Lemmatization and Stemming: These processes reduce words to their base or root form. Lemmatization considers the context and converts the word to its meaningful base form, while stemming simply removes prefixes and suffixes.
+
+- Handling Stop Words: Stop words are common words like "the," "is," "in," etc., which are often filtered out from the text, especially in tasks like keyword extraction.
+
+- Tokenization: Breaking down text into smaller units (like words or phrases). This is often a precursor to other normalization tasks.
+
+- Handling Slang and Abbreviations: Converting slang, abbreviations, and acronyms to their full form to make the text more understandable and standard.
+
 
 #### Key NLP Common Terms used in normalization:
 - Tokenization: This is the process of breaking down text into smaller units called tokens. Tokens can be words, numbers, or punctuation marks. Tokenization is often the first step in NLP pipelines, preparing text for more complex processing.
