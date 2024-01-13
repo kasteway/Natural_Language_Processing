@@ -189,7 +189,7 @@ Linear classifiers are simpler, faster, and more interpretable, making them suit
 
 Sentiment analysis is a text classification application that determines teh overall sentiment of a document. Each of the following areas adds a layer of sophistication to traditional sentiment analysis, allowing for a more nuanced and detailed understanding of the sentiments expressed in text data.
 
-##### Subjectivity Detection:
+#### Subjectivity Detection:
 
 It involves identifying whether a given text expresses subjective opinions or objective facts. Subjectivity detection is a fundamental step in sentiment analysis that helps in identifying and analyzing opinions and feelings expressed in text, distinguishing them from factual or neutral statements. 
 
@@ -204,7 +204,7 @@ It involves identifying whether a given text expresses subjective opinions or ob
 - Applications: Beyond sentiment analysis, subjectivity detection is useful in areas like news aggregation and summarization, where it's important to distinguish between factual reporting and opinion pieces. It also plays a role in social media monitoring, brand analysis, and customer feedback systems.
 
 
-##### Stance Classification:
+#### Stance Classification:
 
 Stance Classification is about determining the position or stance of the author towards a particular target, such as a topic, individual, or policy.
 
@@ -217,7 +217,7 @@ Stance Classification is about determining the position or stance of the author 
 - Applications: Used in analyzing public sentiment on social or political issues, gauging public response to products or events, and understanding viewpoints in debates.
 
 
-##### Targeted Sentiment Analysis:
+#### Targeted Sentiment Analysis:
 
 Targeted Sentiment Analysis focuses on identifying sentiment towards specific entities in the text rather than the overall sentiment.
 
@@ -231,7 +231,7 @@ Targeted Sentiment Analysis focuses on identifying sentiment towards specific en
 
 
 
-#####  Aspect-Based Opinion Mining:
+####  Aspect-Based Opinion Mining:
 
 Aspect-Based Opinion Mining is a more granular approach in sentiment analysis that focuses on the aspects or attributes of a product or service.
 
@@ -245,7 +245,7 @@ Aspect-Based Opinion Mining is a more granular approach in sentiment analysis th
 
 
 
-##### Emotion Classification
+#### Emotion Classification
 
 Emotion Classification involves categorizing text into specific emotional categories, such as happiness, sadness, anger, surprise, etc.
 
@@ -281,6 +281,7 @@ Word Sense Disambiguation (WSD) is a process in computational linguistics where 
 
 
 ---
+
 ### Language Models:
 
 Language models are the backbone of NLP, providing the necessary foundation for machines to interact with human language in various forms and applications. Language models in Natural Language Processing (NLP) are statistical or computational models that enable computers to understand, interpret, generate, and respond to human language in a way that is both meaningful and useful.
@@ -291,7 +292,7 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 - Sequential Nature of Language: Language models account for the sequential and contextual nature of language. Words are understood not just as individual entities but also in relation to the words around them.
 
-###### Types of Language Models:
+#### Types of Language Models:
 
   -  Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
   -  Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
@@ -332,7 +333,7 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture different levels of word context and dependencies. Unigrams focus on individual words, bigrams introduce the concept of immediate word pairs, and trigrams extend this to sequences of three words. The choice between using unigrams, bigrams, trigrams, or higher N-Grams depends on the specific requirements of the task, the complexity the model can handle, and the availability of training data. Higher N-Grams can capture more context but also face greater challenges of data sparsity and computational complexity.
 
-1. Unigrams (1-Grams):
+### 1. Unigrams (1-Grams):
 
   -  Definition: A unigram is a single word or token. In a unigram model, the probability of each word occurring is treated independently of any other words.
   
@@ -340,7 +341,7 @@ Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture di
   
   -  Limitation: Since unigrams don’t consider any context or word order, they are limited in capturing linguistic structures like phrases or idioms.
 
-2. Bigrams (2-Grams):
+### 2. Bigrams (2-Grams):
 
   -  Definition: A bigram consists of two consecutive words or tokens. In a bigram model, the probability of a word is predicted based on its preceding word.
 
@@ -348,7 +349,7 @@ Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture di
 
   -  Advantage: Bigrams provide a balance between model simplicity and the ability to capture some context, making them suitable for several practical applications.
 
-3. Trigrams (3-Grams):
+### 3. Trigrams (3-Grams):
 
   -  Definition: A trigram consists of three consecutive words or tokens. In a trigram model, the probability of a word is predicted based on the two preceding words.
 
