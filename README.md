@@ -294,8 +294,8 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 #### Types of Language Models:
 
-  -  Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
-  -  Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
+    - Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
+    - Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
 
 - Pre-training and Fine-tuning: Many modern language models are pre-trained on large datasets to understand general language patterns and can be fine-tuned on specific tasks like question-answering or summarization.
 
