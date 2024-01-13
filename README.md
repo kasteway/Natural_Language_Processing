@@ -286,16 +286,16 @@ Word Sense Disambiguation (WSD) is a process in computational linguistics where 
 
 Language models are the backbone of NLP, providing the necessary foundation for machines to interact with human language in various forms and applications. Language models in Natural Language Processing (NLP) are statistical or computational models that enable computers to understand, interpret, generate, and respond to human language in a way that is both meaningful and useful.
 
+#### Types of Language Models:
+
+  - Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
+  - Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
+    
 - Understanding Human Language: They are designed to process, analyze, and sometimes generate human language, including speech and text. This involves tasks like speech recognition, machine translation, and text generation.
 
 - Statistical and Neural Models: Early language models were largely statistical, based on probabilities of sequences of words (N-grams). Modern language models are predominantly neural networks, which can process complex language patterns more effectively.
 
 - Sequential Nature of Language: Language models account for the sequential and contextual nature of language. Words are understood not just as individual entities but also in relation to the words around them.
-
-#### Types of Language Models:
-
-    - Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
-    - Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
 
 - Pre-training and Fine-tuning: Many modern language models are pre-trained on large datasets to understand general language patterns and can be fine-tuned on specific tasks like question-answering or summarization.
 
