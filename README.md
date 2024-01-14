@@ -11,7 +11,7 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 
 ---
 
-### NLP uses:
+## NLP uses:
 
 - Sentiment Analysis: This involves analyzing text to determine the sentiment behind it, such as determining if a review is positive, negative, or neutral.
 
@@ -33,7 +33,7 @@ NLP is a rapidly evolving field, with ongoing research and development pushing t
 
 
 ---
-### Text Normalization:
+## Text Normalization:
 
 Text normalization is an essential preprocessing step that helps in reducing complexity and improving the efficiency and accuracy of various NLP algorithms. It plays a vital role in ensuring that the text data is uniform and standardized, facilitating more effective and accurate analysis.
 
