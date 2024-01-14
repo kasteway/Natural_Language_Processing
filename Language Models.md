@@ -2,13 +2,13 @@
 
 Language models are the backbone of NLP, providing the necessary foundation for machines to interact with human language in various forms and applications. Language models in Natural Language Processing (NLP) are statistical or computational models that enable computers to understand, interpret, generate, and respond to human language in a way that is both meaningful and useful.
 
-#### Types of Language Models:
+### Types of Language Models:
 
   - Generative Models: These models can generate text, simulating how humans might write or speak. Examples include GPT (Generative Pre-trained Transformer) series.
   - Discriminative Models: These models are used to classify or predict, for example, determining the sentiment of a text or categorizing it into different topics.
 
 
-#### Application of Language Models:
+### Application of Language Models:
 
 - Understanding Human Language: They are designed to process, analyze, and sometimes generate human language, including speech and text. This involves tasks like speech recognition, machine translation, and text generation.
 
@@ -24,8 +24,9 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 - Continuous Evolution: The field is rapidly evolving, with ongoing research and development aimed at creating more accurate, efficient, and context-aware models.
 
+--- 
 
-#### Essence of N-Gram language models:
+### Essence of N-Gram language models:
 
 - Definition: An N-Gram is a sequence of 'N' items from a given sample of text or speech. The 'items' can be phonemes, syllables, letters, words, or base pairs according to the application. In the context of language models, these items are typically words.
 
@@ -47,8 +48,10 @@ Language models are the backbone of NLP, providing the necessary foundation for 
 
 
 
+---
+### Unigrams, Bigrams, and Trigrams:
 
-### Unigrams, bigrams, and trigrams are integral components of N-Gram language models, each representing a different level of complexity and context in understanding text. Here's how they are used in N-Gram language models:
+Are integral components of N-Gram language models, each representing a different level of complexity and context in understanding text. Here's how they are used in N-Gram language models:
 
 Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture different levels of word context and dependencies. Unigrams focus on individual words, bigrams introduce the concept of immediate word pairs, and trigrams extend this to sequences of three words. The choice between using unigrams, bigrams, trigrams, or higher N-Grams depends on the specific requirements of the task, the complexity the model can handle, and the availability of training data. Higher N-Grams can capture more context but also face greater challenges of data sparsity and computational complexity.
 
@@ -76,6 +79,7 @@ Unigrams, Bigrams, and Trigrams are used in N-Gram language models to capture di
 
   -  Trade-off: While trigrams offer more context, they also require significantly more data to accurately model the probabilities of word sequences, leading to issues of data sparsity.
 
+--- 
 
 ### Handling unseen N-Grams:
 
