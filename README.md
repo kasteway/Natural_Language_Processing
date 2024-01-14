@@ -485,20 +485,21 @@ RNNs have been fundamental in advancing NLP by enabling the processing of sequen
 
 ---
 
+## Part-of-speech (POS) tagging:
 
 Part-of-speech (POS) tagging is a critical process in Natural Language Processing (NLP) that involves identifying and labeling each word in a sentence according to its part of speech. Here's a summary of its key aspects:
 
-Definition: POS tagging assigns parts of speech to each word in a text, such as nouns, verbs, adjectives, adverbs, etc., based on both its definition and its context.
+- Definition: POS tagging assigns parts of speech to each word in a text, such as nouns, verbs, adjectives, adverbs, etc., based on both its definition and its context.
 
-Importance in NLP: It's essential for various NLP tasks like text-to-speech conversion, word sense disambiguation, and syntactic parsing. Accurate POS tagging helps in understanding the meaning and structure of sentences.
+- Importance in NLP: It's essential for various NLP tasks like text-to-speech conversion, word sense disambiguation, and syntactic parsing. Accurate POS tagging helps in understanding the meaning and structure of sentences.
 
-Methods: There are several methods, including rule-based approaches, stochastic (probabilistic) methods like Hidden Markov Models (HMMs), and machine learning techniques. Recent advances utilize deep learning models.
+- Methods: There are several methods, including rule-based approaches, stochastic (probabilistic) methods like Hidden Markov Models (HMMs), and machine learning techniques. Recent advances utilize deep learning models.
 
-Challenges: POS tagging faces challenges like handling new words, homonyms (words with the same spelling but different meanings), and context-dependent POS assignments.
+- Challenges: POS tagging faces challenges like handling new words, homonyms (words with the same spelling but different meanings), and context-dependent POS assignments.
 
-Applications: It's used in machine translation, question answering systems, sentiment analysis, and information retrieval.
+- Applications: It's used in machine translation, question answering systems, sentiment analysis, and information retrieval.
 
-Accuracy and Performance: The accuracy of POS tagging can significantly impact the performance of higher-level NLP tasks. Advanced models have achieved high accuracy but can still struggle with complex or ambiguous texts.
+- Accuracy and Performance: The accuracy of POS tagging can significantly impact the performance of higher-level NLP tasks. Advanced models have achieved high accuracy but can still struggle with complex or ambiguous texts.
 
 ---
 
