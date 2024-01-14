@@ -24,8 +24,9 @@ Text normalization is a process in Natural Language Processing (NLP) that involv
 
 - Handling Slang and Abbreviations: Converting slang, abbreviations, and acronyms to their full form to make the text more understandable and standard.
 
+--- 
+## Common Terms used in normalization:
 
-#### Key NLP Common Terms used in normalization:
 - Tokenization: This is the process of breaking down text into smaller units called tokens. Tokens can be words, numbers, or punctuation marks. Tokenization is often the first step in NLP pipelines, preparing text for more complex processing.
 
 - Stemming: Stemming is the process of reducing words to their word stem or root form. For instance, the words "fishing", "fished", and "fisher" all stem to the word "fish". This helps in normalizing words for text processing tasks, but the stems might not always be actual dictionary words.
